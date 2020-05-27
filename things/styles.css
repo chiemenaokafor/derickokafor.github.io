@@ -388,7 +388,8 @@ input{
 #contact{
     color: white;
     background-color: black;
-    padding: 100px;
+    padding: 25px;
+    margin: 0px;
 }
 
 .navbar-bottom{
@@ -416,7 +417,7 @@ input{
 input{
     border: none;
     color: white;
-    width: 300px;
+    width: 150px;
     border-bottom: 1px solid white;
     margin: 0 20px 20px 0;
     background: none;
