@@ -1,177 +1,415 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DERICK</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="things/icon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- CSS FILE -->
-    <link rel="stylesheet" href="things/styles.css">
+    <link rel="icon" href="images/favicon.png">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;500;700;900&family=Lemonada:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Responsive Grid css -->
+    <link rel="stylesheet" href="css/grid.css">
+    
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Queries css -->
+    <link rel="stylesheet" href="css/queries.css">
+
+    <title>ODCfood</title>
   </head>
   <body>
-    <!-- Navigation Bar -->
-    <section id="navbar">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">DE<span id="navbar-name">RIC</span>K</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-align-justify" aria-hidden="true"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#apple">Apple<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#samsung">Samsung</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#playstation">Play Station</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#camera">Camera</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contacts</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Cart <i class="fa fa-cart-plus" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">My Account <i class="fa fa-male" aria-hidden="true"></i></a>
-            </li>
-          </ul>
+    <!-- NAVIGATIONS -->
+    <header>
+        <nav>
+            <div class="row">
+                <img src="images/logo_transparent.png" alt="oDCODCfood logo" class="logo">
+                <ul class="main-nav">
+                <li><a href="#">Food delivery</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Our cities</a></li>
+                <li><a href="#">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Goodbye junk food. <br> Hello super healthy meals.</h1>
+            <a class="btn btn-full" href="#">I’m hungry</a>
+            <a class="btn btn-ghost" href="#">Show me more</a>
         </div>
-      </nav>
-    </section>
+    </header>
 
-    <!-- Apple -->
-    <section id="apple">
-      <div class="container apple-container">
-        <p id="my-name">Okafor Chiemena Derick</p>
-        <h1>Apple Products</h1>
+    <!-- FEATURES -->
+    <section class="section-features">
         <div class="row">
-          <div class="col-lg-7">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, deleniti! Natus praesentium officia eaque molestias eum. Facere fugit commodi libero.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum iure molestias inventore. Harum, iusto tenetur. Harum aliquid, commodi aspernatur doloribus omnis ullam natus dolor veniam illum nesciunt, voluptates maxime voluptate praesentium eius. Veritatis officiis reiciendis eius assumenda inventore libero esse corporis ad quos distinctio, in odio ipsum possimus illum! Laudantium?</p>
-          </div>
+        <h2>Get food fast &mdash; not fast food.</h2>
+        <p class="long-copy">Hello, we’re ODCfood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>  
         </div>
-      </div>
-      <img id="macbook" src="https://cdn.pixabay.com/photo/2014/05/02/21/49/home-office-336373_1280.jpg" alt="MacBook">
-      <img id="iphone" class="d-lg-inline" src="https://cdn.pixabay.com/photo/2017/08/10/08/57/notebook-2620192_960_720.jpg" alt="Iphone">
+        <div class="row">
+        <div class="col span-1-of-4 box">
+            <ion-icon class="icon-big" name="infinite-outline"></ion-icon>
+            <h3>Up to 365 days/year</h3>
+            <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+        </div>
+        <div class="col span-1-of-4 box">
+            <ion-icon class="icon-big" name="alarm-outline"></ion-icon>
+            <h3>Ready in 20 minutes</h3>
+            <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+        </div>
+        <div class="col span-1-of-4 box">
+            <ion-icon class="icon-big" name="nutrition-outline"></ion-icon>
+            <h3>100% organic</h3>
+            <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+        </div>
+        <div class="col span-1-of-4 box">
+            <ion-icon class="icon-big" name="cart-outline"></ion-icon>
+            <h3>Order anything</h3>
+            <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+        </div>
+        </div>
     </section>
 
-    <!-- Samsung -->
-    <section id="samsung">
-      <h1 id="samsung-heading">Samsung Products</h1>
+    <!-- MEALS -->
+    <section class="section-meals">
+    <ul class="meals-showcase clearfix">
+        <li>
+            <figure class="meal-photo">
+                <img src="images/1.jpg" alt="Korean bibimbap with egg and vegetables">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="images/2.jpg" alt="Simple italian pizza with cherry tomatoes">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="images/3.jpg" alt="Chicken breast steak with vegetables">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="images/4.jpg" alt="Autumn pumpkin soup">
+            </figure>
+        </li>
+    </ul>
+    <ul class="meals-showcase clearfix">
+        <li>
+            <figure class="meal-photo">
+                <img src="images/5.jpg" alt="Paleo beef steak with vegetables">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="images/6.jpg" alt="Healthy baguette with egg and vegetables">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="images/7.jpg" alt="Burger with cheddar and bacon">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="images/8.jpg" alt="Granola with cherries and strawberries">
+            </figure>
+        </li>
+    </ul>
+    </section>
       
-      <div class="container samsung-info">
-          <div class="row">
-            <div class="col-md-6">
-              <img id="samsung-phone" src="https://cdn.pixabay.com/photo/2019/12/30/03/06/samsung-4728704_960_720.jpg" alt="samsung phone">
-              <img id="samsung-watch" src="things/samsungwatch.png" alt="samsung watch">
-            </div>
-            <div class="col-md-6 samsung-note-1">
-              <h2>Little Note</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquid, laudantium tempore nobis odio aperiam, vero iste quidem sint laboriosam eaque doloremque porro, distinctio quasi.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam minus aspernatur dolore obcaecati cupiditate.</p>
-            </div>
-            <div class="col-sm-6 samsung-note-2">
-              <h2>Television</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellendus temporibus accusamus ducimus amet, dolores dolorem quidem incidunt commodi aliquam, illum blanditiis quis ex nisi, culpa soluta atque quaerat esse?</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis eaque nihil quod omnis in accusantium aperiam labore saepe odit. Temporibus dignissimos cupiditate sit commodi! Unde, asperiores. Excepturi magnam eveniet deleniti beatae culpa magni, alias soluta, exercitationem totam quidem nisi? Doloribus quod doloremque veniam fugiat, adipisci quasi totam ab recusandae!</p>
-            </div>
-            <div class="col-sm-6">
-              <img class="samsung-tv" src="https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80" alt="samsung tv">
-            </div>
-          </div>
-      </div>
-    </section>
-
-    <!-- Play Station -->
-    <section id="playstation">
-      <div id="play-station">
-        <div class="card" id="card-one">
-          <div class="card-body">
-            <h5 class="card-title">Pad</h5>
-            <p class="card-text">Quos, dolore magnam autem in doloremque aliquid enim eos error, mollitia dolores fugit quo earum sequi odit ad ipsa neque nam iste.</p>
-          </div>
-        </div>
-        <div class="card" id="card-two">
-          <div class="card-body">
-            <h5 class="card-title">Game</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa delectus dolorem minima officia dolores voluptatem eos.</p>
-          </div>
-        </div>
-        <div class="card" id="card-three">
-          <div class="card-body">
-            <h5 class="card-title">Players</h5>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus dolorum corporis ad accusantium/</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Camera -->
-    <section id="camera">
-      <h1 id="camera-heading">The Best Set Of Camera</h1>
-      <div class="container" >
+    <!-- STEPS -->
+    <section class="section-steps">
         <div class="row">
-          <div class=" col-sm-6 col-md-6" id="cam-img">
-          </div>
-          <div class=" col-sm-6 col-md-6" id="cam-words">
-            <h2>Some Words</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum ex at nihil nesciunt quam totam dolorem aperiam veniam voluptate laudantium saepe accusamus labore dolorum nam, pariatur, esse perspiciatis commodi.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam commodi, vero odit in tenetur, doloremque aliquam consectetur corrupti unde dicta deleniti repudiandae ea cupiditate tempore ullam ipsa voluptas reprehenderit dolor non alias eum sint esse! Veritatis cum eum totam aut.</p>
-            <img id="side-camera" src="https://images.unsplash.com/photo-1516961642265-531546e84af2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
-          </div>
+            <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
-      </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <figure>
+                <img src="images/minimal-dell-display.png" alt="ODCfood app on iPhone" class="app-screen">
+                </figure>
+            </div>
+            <div class="col span-1-of-2 steps-box">
+            <div class="works-step">
+                <div>1</div>
+                <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+            </div>
+            <div class="works-step">
+                <div>2</div>
+                <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+            </div>
+            <div class="works-step">
+                <div>3</div>
+                <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+            </div>
+
+            <a href="#" class="btn-app"><img src="images/download-app-android.png" alt="Play Store"></a>
+            <a href="#" class="btn-app"><img src="images/download-for-iphone.png" alt="App Store"></a>
+            </div>
+        </div>
     </section>
 
-    <!-- Bottom Navigation Bar -->
-    <div id="contact">
-      <div class="row">
-        <div class="col-md-6">
-          <a class="navbar-bottom" href="#">DE<span id="navbar-name">RIC</span>K</a>
-          <h6 class="top-h6">Want to be the first to know?</h6>
-          <h6 class="bottom-h6">Subscribe to our newsletter.</h6>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="email" placeholder="E-MAIL"><button type="submit"> <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-          </div>
+    <!-- CITIES -->
+    <section class="section-cities">
+        <div class="row">
+            <h2>We're currently in these cities</h2>
         </div>
-        <div class="col-md-6 links-items">
-          <a class="button-bar" href="#apple" role="button">Apple</a>
-          <a class="button-bar" href="#samsung" role="button">Samsung</a>
-          <a class="button-bar" href="#playstation" role="button">Play Station</a>
-          <a class="button-bar" href="#camera" role="button">Camera</a>
+        <div class="row">
+        <div class="col span-1-of-4 box">
+            <img src="images/london.jpg" alt="london">
+            <h3>London</h3>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="person-outline"></ion-icon>
+                    1200+ happy eaters
+            </div>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="restaurant-outline"></ion-icon>
+                    50+ top chefs
+            </div>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                <a href="">@ODCfood_london</a>
+            </div>
         </div>
-      </div>
-    </div>
+        <div class="col span-1-of-4 box">
+            <img src="images/san-francisco.jpg" alt="san francisco">
+            <h3>San Fanisco</h3>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="person-outline"></ion-icon>
+                    3700+ happy eaters
+            </div>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="restaurant-outline"></ion-icon>
+                    160+ top chefs
+            </div>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                <a href="">@ODCfood_sf</a>
+            </div>
+        </div>
+        <div class="col span-1-of-4 box">
+            <img src="images/berlin.jpg" alt="berlin">
+            <h3>Berin</h3>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="person-outline"></ion-icon>
+                    2300+ happy eaters
+            </div>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="restaurant-outline"></ion-icon>
+                    110+ top chefs
+            </div>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                <a href="">@ODCfood_berlin</a>
+            </div>
+        </div>
+        <div class="col span-1-of-4 box">
+            <img src="images/lisbon-3.jpg" alt="lisbon">
+            <h3>Lisbon</h3>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="person-outline"></ion-icon>
+                    1600+ happy eaters
+            </div>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="restaurant-outline"></ion-icon>
+                    60+ top chefs
+            </div>
+            <div class="city-feature">
+                <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                <a href="">@ODCfood_lx</a>
+            </div>
+        </div>
+        </div>
+    </section>
 
+    <!-- TESTIMONIALS -->
+    <section class="section-testimonials">
+        <div class="row">
+            <h2>Our customers can't live without us</h2>
+        </div>
+        <div class="row">
+        <div class="col span-1-of-3">
+            <blockquote>
+                  ODCfood is just awesome! I just launched a startup which leaves me with no time for cooking, so ODCfood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                <cite> <img src="images/customer-1.jpg" alt="first"> (Alberto Duncan)</cite>
+            </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+            <blockquote>
+                  Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to ODCfood. Me and my family are so in love!
+                <cite> <img src="images/customer-2.jpg" alt="second"> (Joana Silva)</cite>
+            </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+            <blockquote>
+                  I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with ODCfood. Best food delivery service in the Bay Area. Keep up the great work!
+                <cite> <img src="images/customer-3.jpg" alt="third"> (Milton Chapman)</cite>
+            </blockquote>
+        </div>
+        </div>
+    </section>
 
+    <!-- PLANS -->
+    <section class="section-plans">
+        <div class="row">
+            <h2>Start eating healthy today</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+              <div class="plan-box">
+                  <div><h3>Premium</h3>
+                    <p class="plan-price">399$ <span>/ month</span></p>
+                    <p class="plan-price-meal">That’s only 13.30$ per meal</p>
+                  </div>
+                  <div>
+                    <ul>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>1 meal every day</li>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Order 24/7</li>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Access to newest creations</li>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Free delivery</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <a href="#" class="btn btn-full">Sign up now</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col span-1-of-3">
+              <div class="plan-box">
+                <div><h3>Pro</h3>
+                  <p class="plan-price">149$ <span>/ month</span></p>
+                  <p class="plan-price-meal">That’s only 14.90$ per meal</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>1 for 10 days every month</li>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Order 24/7</li>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Access to newest creations</li>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Free delivery</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="btn btn-ghost">Sign up now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col span-1-of-3">
+              <div class="plan-box">
+                <div><h3>Starter</h3>
+                <p class="plan-price">19$ <span>/ meal</span></p>
+                <p class="plan-price-meal">&nbsp;</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>1 meal</li>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Order from 8am to 12pm</li>
+                        <li><ion-icon name="close-outline" class="icon-small"></ion-icon>Access to newest creations</li>
+                        <li><ion-icon name="checkmark-outline" class="icon-small"></ion-icon>Free delivery</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="btn btn-ghost">Sign up now</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- FORMS -->
+    <section class="section-form">
+        <div class="row">
+            <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form class="contact-form" action="#" method="post">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends">Friends</option>
+                            <option value="search">Search engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="news">News Letter</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked> Yes, please
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="message">Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send it!">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- FOOTER -->
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a class="facebook" href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a class="twitter" href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a class="google" href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+                    <li><a class="instagram" href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a class="whatsapp" href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>Copyright &copy; 2020 by Okafor Chiemena Derick. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
+ 
